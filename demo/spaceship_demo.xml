@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record model="space.spaceship" id="spaceship_one">
+            <field name="name">Spaceship One</field>
+            <field name="description">Spaceship Two description</field>
+            <field name="dimensions">120</field>
+        </record>
+
+        <record model="space.spaceship" id="spaceship_two">
+            <field name="name">Spaceship Two</field>
+            <field name="description">Spaceship description</field>
+            <field name="dimensions">80 x 12 x 14 (m)</field>
+            <field name="nr_passengers">100</field>
+        </record>
+
+        <record model="space.spaceship" id="spaceship_three">
+            <field name="name">Spaceship Three</field>
+            <field name="description">Spaceship description</field>
+            <field name="dimensions">40 x 8 x 14 (m)</field>
+            <field name="nr_passengers">10</field>
+        </record>
+    </data>
+</odoo>
