@@ -1,6 +1,6 @@
 from odoo import models, fields, api
 
-class Course(models.Model):
+class Spaceship(models.Model):
 
-    _name = "academy.course"
-    _description = "Course Info"
+    _name = "space.spaceship"
+    _description = "Spaceship is faster than a horse"
